@@ -1,0 +1,16 @@
+GuardianMesh AI is a Zero-Trust security platform for AI agents that use the Model Context Protocol (MCP) to interact with tools such as GitHub, Gmail, databases, cloud services, and file systems.
+As AI agents gain the ability to perform real-world actions, they become vulnerable to threats like prompt injection, malicious tool responses, unauthorized tool usage, and privilege escalation. GuardianMesh acts as a security layer between the AI agent and MCP servers, inspecting every tool request before execution.
+The platform evaluates each request using Zero-Trust principles, configurable security policies, risk scoring, and AI-powered reasoning to determine whether the action should be allowed, blocked, or require human approval. It also detects prompt injection attacks, maintains detailed audit logs, assigns trust scores, and provides explainable security decisions through an intuitive dashboard.
+Key Features:
+🛡️ Zero-Trust security layer for AI agents
+🔍 MCP tool request interception and inspection
+🚨 Prompt injection detection
+⚖️ AI-powered risk assessment and policy enforcement
+📊 Risk scoring and agent trust scoring
+📝 Audit logging and explainable security decisions
+📈 Real-time security dashboard and attack visualization
+Core Workflow:
+User → AI Agent → GuardianMesh Security Layer → Risk Analysis + Policy Engine + Prompt Injection Detection → ALLOW / BLOCK / REQUIRE APPROVAL → MCP Server (GitHub, Gmail, Database, etc.)
+Hackathon Demo Scenario:
+A user asks an AI agent to summarize a document. The document secretly contains a prompt injection instructing the agent to email confidential data to an attacker. Without GuardianMesh, the AI attempts the malicious action. With GuardianMesh, the suspicious tool request is detected, assigned a high risk score, blocked before execution, and the reason for the decision is clearly displayed to the user.
+Tagline: "GuardianMesh AI – Zero Trust Security for the Next Generation of AI Agents."
